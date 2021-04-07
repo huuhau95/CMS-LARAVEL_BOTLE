@@ -264,8 +264,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/api",
-                "reference": "602f3ed45b672fa6626fd6079f8e9519fa47cd30",
-                "shasum": null
+                "reference": "602f3ed45b672fa6626fd6079f8e9519fa47cd30"
             },
             "require": {
                 "barryvdh/laravel-cors": "^0.11.3",
@@ -357,8 +356,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/menu",
-                "reference": "1d70ee1f1cf539c0b725fba5490db6a2577cb504",
-                "shasum": null
+                "reference": "1d70ee1f1cf539c0b725fba5490db6a2577cb504"
             },
             "type": "package",
             "extra": {
@@ -387,8 +385,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/optimize",
-                "reference": "f903949e0fb5973d71c0a230b48901cc300a756f",
-                "shasum": null
+                "reference": "f903949e0fb5973d71c0a230b48901cc300a756f"
             },
             "type": "package",
             "extra": {
@@ -417,8 +414,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/page",
-                "reference": "ed03272b2b269ede5cee997c98c1a88c6367f835",
-                "shasum": null
+                "reference": "ed03272b2b269ede5cee997c98c1a88c6367f835"
             },
             "type": "package",
             "extra": {
@@ -447,8 +443,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/core",
-                "reference": "0d9430ae007e9e52f10812e68b67e5580ccfdbc5",
-                "shasum": null
+                "reference": "0d9430ae007e9e52f10812e68b67e5580ccfdbc5"
             },
             "require": {
                 "barryvdh/laravel-dompdf": "^0.8.2",
@@ -546,8 +541,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/revision",
-                "reference": "d95ff23e797e983b0327bd1076bd0e3749e25f3d",
-                "shasum": null
+                "reference": "d95ff23e797e983b0327bd1076bd0e3749e25f3d"
             },
             "type": "package",
             "extra": {
@@ -576,8 +570,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/seo-helper",
-                "reference": "dcf32fead1dee8791d991e30cdacff5b93810946",
-                "shasum": null
+                "reference": "dcf32fead1dee8791d991e30cdacff5b93810946"
             },
             "type": "package",
             "extra": {
@@ -609,8 +602,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/shortcode",
-                "reference": "354fb720bef18fba643479a931e1f24f7757368c",
-                "shasum": null
+                "reference": "354fb720bef18fba643479a931e1f24f7757368c"
             },
             "type": "package",
             "extra": {
@@ -639,8 +631,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/slug",
-                "reference": "1d6e85cbab706e89d93b269163ffdff531b9c39d",
-                "shasum": null
+                "reference": "1d6e85cbab706e89d93b269163ffdff531b9c39d"
             },
             "type": "package",
             "extra": {
@@ -669,8 +660,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/theme",
-                "reference": "fc6110ebb46c7744e201b99bad4ced38d6d4b6f7",
-                "shasum": null
+                "reference": "fc6110ebb46c7744e201b99bad4ced38d6d4b6f7"
             },
             "type": "package",
             "extra": {
@@ -699,8 +689,7 @@
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/widget",
-                "reference": "89b0ba9574bbe5d2bb12c73260e48c138c343a63",
-                "shasum": null
+                "reference": "89b0ba9574bbe5d2bb12c73260e48c138c343a63"
             },
             "type": "package",
             "extra": {
@@ -4164,6 +4153,11 @@
                 "pseudorandom",
                 "random"
             ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/random_compat/issues",
+                "source": "https://github.com/paragonie/random_compat"
+            },
             "time": "2018-07-02T15:55:56+00:00"
         },
         {
@@ -4432,16 +4426,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.15",
+            "version": "2.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "11cf67cf78dc4acb18dc9149a57be4aee5036ce0"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/11cf67cf78dc4acb18dc9149a57be4aee5036ce0",
-                "reference": "11cf67cf78dc4acb18dc9149a57be4aee5036ce0",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -4449,8 +4443,7 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -4520,7 +4513,25 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2019-03-10T16:53:45+00:00"
+            "support": {
+                "issues": "https://github.com/phpseclib/phpseclib/issues",
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.31"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "pragmarx/coollection",
@@ -10223,5 +10234,6 @@
         "ext-json": "*",
         "ext-zip": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
